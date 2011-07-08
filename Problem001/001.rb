@@ -1,1 +1,1 @@
-puts gets(nil).split.collect { |x| x.to_i }.max
+puts gets(nil).split.map(&:to_i).max
